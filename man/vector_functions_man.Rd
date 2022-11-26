@@ -39,6 +39,6 @@ library("plyr")
 library("tibble")
 library("data.table")
 
-load("~/multivariatevector/data/stickleback_example_data.rda")
-multivariate.vector(stickleback_example_data)
+df <- stickleback_example_data
+multivariate.vector(df)
 }
